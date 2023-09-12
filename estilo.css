@@ -1,0 +1,89 @@
+.navbar-custom {
+    background-color: #FFA500;
+    padding: 1rem 0;
+  }
+
+  .navbar-custom .navbar-brand {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+
+  .intro-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+  }
+
+  .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .NavBarFinal {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+  .highlighted-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FFD700;
+  }
+
+  .nav-item-spacing {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .profile-info {
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .escolaridade-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+  }
+
+  .extras-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .escola-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .escola-image {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .escola-text {
+    flex: 1;
+  }
+  
+
+  
+  
