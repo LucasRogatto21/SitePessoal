@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal e Profissional</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="modal fade" id="imagemModal" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title" id="imagemModalLabel">Exemplos de jogos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="imagemCarrossel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="Imagens/darksouls.jpg" class="d-block w-100" alt="Imagem 1">
+                                <p class="text-center">DarkSouls III</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="Imagens/lol.jpg" class="d-block w-100" alt="Imagem 2">
+                                <p class="text-center">league of legends</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="Imagens/thelastofus.jpg" class="d-block w-100" alt="Imagem 3">
+                                <p class="text-center">The Last Of Us</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="Imagens/eldenring.jpg" class="d-block w-100" alt="Imagem 4">
+                                <p class="text-center">Elden Ring</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="Imagens/hollow.jpg" class="d-block w-100" alt="Imagem 5">
+                                <p class="text-center">Hollow Knight</p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="Imagens/liesofp.jpg" class="d-block w-100" alt="Imagem 6">
+                                <p class="text-center">Lies Of P</p>
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#imagemCarrossel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#imagemCarrossel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="escolaridade.html">Escolaridade</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profissional.html">Profissional</a>
+                    </li>
+                    <li class="nav-item nav-item-spacing">
+                        <a class="nav-link highlighted-text" href="sitePessoal.html">Lucas Rogatto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="extras.html">Extras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="escolaridade" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>Hobbies</h2>
+
+                    <div class="escolaridade-container">
+                        <div class="escola-content">
+                            <img src="Imagens/jogos.png" class="escola-image" alt="Imagem de Jogos 1"
+                                data-toggle="modal" data-target="#imagemModal">
+                            <div class="escola-text">
+                                <h3>Jogos</h3>
+                                <p>Nos tempos livre gosto de jogar</p>
+                                <p>Categorias mais jogado:Soulslike, MOBA, RPG, MMORPG, História</p>
+                                <p>Principais Jogos: Dark Souls III, league of legends, The Last Of Us, Elden Ring e
+                                    Hollow Knight</p>
+                                <p>Jogo do Momento: Lies Of P</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="escolaridade-container">
+                        <div class="escola-content">
+                            <img src="Imagens/esportes.jpg" class="escola-image">
+                            <div class="escola-text">
+                                <h3>Esportes</h3>
+                                <p>Nos tempos livre gosto de praticar esportes</p>
+                                <p>Esportes já realizados: Futebol, Handebol, Volei e Atletismo</p>
+                                <p>Esporte principal: Volei</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="NavBarFinal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Autor: Lucas Rogatto</p>
+                    <p>Conecte-se comigo:</p>
+                    <a href="https://www.linkedin.com/in/lucas-rogatto-48b9731a5/" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/LucasRogatto21" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
